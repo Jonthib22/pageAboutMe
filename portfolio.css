@@ -1,0 +1,30 @@
+.badge {
+    background: navy;
+}
+
+/* .container {
+    margin: 150px 0 100px 50px;
+    background: white;
+    padding: 20px;
+    float: left;
+} */
+
+#AboutMeBox {
+    margin: 150px 0 100px 0;
+    background: white;
+    padding: 20px;
+    float: left;
+}
+
+.row {
+    float: left;
+}
+
+img {
+    margin: 20px;
+    float: left;
+}
+
+body {
+    background: palegreen;
+}
