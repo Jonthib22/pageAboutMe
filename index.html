@@ -2,7 +2,21 @@
 <html lang="en">
 
 <head>
-  <style>
+  <style type>
+    .navbar-inverse {
+      background: #2c3e50;
+      color: white;
+    }
+
+    .navbar-inverse .navbar-brand,
+    .navbar-inverse a {
+      color: white;
+    }
+
+    .navbar-inverse .navbar-nav>li>a {
+      color: white;
+    }
+
     footer {
       text-align: center;
       padding: 3px;
@@ -16,37 +30,45 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About Me</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link rel="stylesheet" href="index.css">
+   -->
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#"><span class="badge badge-success">Jonathan Thibeaux</span></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" href="./contact.html" tabindex="-1" aria-disabled="true">Contact<span
-              class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="./portfolio.html" tabindex="-1" aria-disabled="true">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="./index.html" tabindex="-1" aria-disabled="true">About</a>
-        </li>
-      </ul>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo"
+          aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#" class="navbar-brand"><span class="glyphicon glyphicon-picture"></span> Jonathan Thibeaux</a>
+      </div>
+      <div class="collapse navbar-collapse" id="bs-nav-demo">
+        <ul class="nav navbar-nav">
+          <li><a href="./contact.html">Contact</a></li>
+          <li><a href="./portfolio.html">Portfolio</a></li>
+          <li><a href="./index.html">About</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Sign Up</a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </div>
     </div>
   </nav>
   <div class="container">
     <div class="row">
-      <div class="col-md-8" id="AboutMeBox">
+      <div class="col-md-6" id="AboutMeBox">
         <h1>About Me</h1>
         <hr>
         <img src="https://via.placeholder.com/150" alt="">
@@ -78,13 +100,15 @@
 
 
   <footer>
-    <p>Author: Hege Refsnes<br>
-      <a href="mailto:hege@example.com">hege@example.com</a></p>
+    <p>Author: Jonathan Thibeaux<br>
+      <a href="jonthib95@gmail.com">jonthib95@gmail.com</a></p>
   </footer>
 
 
 
 
+  <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </body>
 
 </html>

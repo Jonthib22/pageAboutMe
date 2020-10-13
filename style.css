@@ -1,0 +1,42 @@
+#ContactBox {
+    margin: 150px 20px 100px 20px;
+    background: white;
+    padding: 20px;
+    float: left;
+}
+
+img {
+    margin: 0 20px 0 0;
+    float: left;
+}
+
+body {
+    background: rgb(163, 173, 163);
+}
+
+.badge {
+    background: navy;
+}
+
+#PortfolioBox {
+    margin: 150px 0 100px 0;
+    background: white;
+    padding: 20px;
+    float: left;
+}
+
+.row {
+    float: left;
+}
+
+img {
+    margin: 20px;
+    float: left;
+}
+
+#AboutMeBox {
+    margin: 150px 20px 100px 20px;
+    background: white;
+    padding: 20px;
+    float: left;
+}
