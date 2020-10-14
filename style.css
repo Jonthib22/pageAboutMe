@@ -1,48 +1,55 @@
 #ContactBox {
     margin: 150px 20px 100px 20px;
-    background: white;
-    padding: 20px;
-    float: left;
+    background-color: #36454f;
+    color: white;
+    padding: 20px; 
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
+    border-radius: 60px;
 }
 
-img {
-    margin: 0 20px 0 0;
-    float: left;
+#SocialMedia {
+    margin: 150px 20px 100px 20px;
+    background-color: #36454f;
+    color: white;
+    padding: 20px; 
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
+    border-radius: 60px;
 }
 
 body {
     background: rgb(163, 173, 163);
 }
 
-.badge {
-    background: navy;
-}
 
 #PortfolioBox {
     margin: 150px 0 100px 0;
-    background: white;
+    background-color: #36454f;
+    color: white;
     padding: 20px;
-    float: left;
-}
-
-.row {
-    float: left;
+    border-color: rgb(219, 219, 219);
+    border-style: solid;
+    border-radius: 60px;
+    
 }
 
 img {
     margin: 20px;
-    float: left;
 }
 
 #AboutMeBox {
     margin: 150px 20px 100px 20px;
-    background: white;
+    background-color: #36454f;
+    color: white;
     padding: 20px;
-    float: left;
+    border-radius: 60px;
+    border-style: solid;
+    border-color: rgb(219, 219, 219);
 }
 
 .navbar-inverse {
-    background: #2c3e50;
+    background: #36454f;
     color: white;
 }
 
